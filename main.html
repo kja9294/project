@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<HTML><HEAD><TITLE> 웹 프로그래밍</TITLE>
+<style>
+	*{margin:0;padding:0;}
+	body{
+		width:100%;
+		margin:0 auto;
+	}
+	#nav{
+		height:40px;
+	}
+	#header{
+		text-align:center;
+		background-color: black;
+		color: white;
+	}
+	#wrapper{
+		overflow:hidden;
+		height:400px;
+	}
+	#section{
+	float:left;
+	width:500px;
+	}
+	#aside{
+	float:left;
+	height:300px;
+	width:200px;
+	background-color:orange;
+	}
+	ul.listinline li{
+	display:inline;
+	background-color:pink;
+	border:1px solid;
+	border-color:silver;
+	padding:5px;
+	margin:3px;
+	}
+</style>
+</HEAD>
+<BODY>
+	<div id="header"><h1>스터디 내용 정리함</h1></div>
+	<br>
+	<div id="nav">
+		<ul class="listinline">
+			<li>스터디 일자</li>
+			<li><a href="1week.html" target="left">1주차</a></li>
+			<li><a href="2week.html" target="left">2주차</a></li>
+			<li><a href="3week.html" target="left">3주차</a></li>
+		</ul>
+	</div>
+	<div id="wrapper">
+		<div id="section">
+			<iframe srcdoc="left" name="left" style="border:1px;" 						sandbox></iframe>
+		</div>
+	</div>
+
+
+		
+</BODY>
+</HTML>
